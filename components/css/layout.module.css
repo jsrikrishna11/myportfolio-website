@@ -1,0 +1,30 @@
+.container {
+    flex: auto;
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+    background-color: pink;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .headerImage {
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .headerHomeImage {
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  .backToHome {
+    margin: 3rem 0 0;
+  }
+
+  

@@ -1,0 +1,39 @@
+
+html, body {
+  line-height: 1.6;
+  font-size: 25px;
+  margin: 0;
+  
+}
+
+#__next {
+  height: 100vmax;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color:black;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: overline;
+  font-style: bold;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+.container-bg{
+  background-color:black;
+}
+
+code{
+  background-color: darkgrey;
+}

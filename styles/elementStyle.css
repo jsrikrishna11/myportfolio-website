@@ -1,0 +1,59 @@
+.cardrowFlex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 20vh;
+    margin-bottom: 2vh;
+    align-content: center;
+
+}
+
+.welcomeIndex{
+    height: 100%;
+}
+
+.indexTag:hover{
+    border: 5px inset lightblue;
+    animation: ease-in;
+    opacity: .8;
+    font-style: italic;
+}
+
+.welcomeRow{
+    height: 100%;
+}
+
+.indexContainer{
+    height: 90% ;
+
+}
+/* .welcomIndex:hover{
+    border: 10px solid blue;
+
+} */
+
+
+.footer{
+    height: 10%;
+    background-color: black;
+}
+
+.footerPartition{
+    border: 2px solid red;
+}
+
+
+.blogTitle{
+    display: flex;
+    color: pink;
+    border-radius: 9999px;
+    border-width: 150%;
+    text-align: center;
+}
+
+.blogContent{
+    font-size: 25px;
+    background-color: grey;
+}
+
+
