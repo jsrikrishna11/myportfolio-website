@@ -1,3 +1,8 @@
+
+
+
+
+
 .cardrowFlex{
     display: flex;
     justify-content: center;
@@ -5,7 +10,11 @@
     height: 20vh;
     margin-bottom: 2vh;
     align-content: center;
+    opacity: 0.8;
+}
 
+.cardrowFlex:hover{
+    cursor: pointer;
 }
 
 .welcomeIndex{
@@ -52,11 +61,7 @@
     border-radius: 9999px;
     border-width: 150%;
     text-align: center;
-}
-
-.blogContent{
-    font-size: 25px;
-    background-color: #5E6D8C;
+    font-weight: 800;
 }
 
 

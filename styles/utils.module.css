@@ -31,10 +31,11 @@
   }
 
   .brandStyle{
-    color: black;
+    color: #0C1804;
+    
     border-radius: 9999px;
     padding: 2%;
-    background-color: red;
+    background-color: #B81E5D;
     font-size: large;
     margin-right: auto;
     margin-left: auto;
@@ -84,11 +85,11 @@
     height: auto;
     width: 100%;
     border-radius: 9999px;
-    background-color: red;
+    background-color:#3A1938;
   }
 
   .cardStyle:hover{
-    border-color: aliceblue;
+    border-color: #8F598A;
     border-width: 1vh;
   }
 

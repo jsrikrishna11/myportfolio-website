@@ -30,5 +30,10 @@ img {
 
 
 code{
-  background-color: darkgrey;
+  background-color: black;
+  color: #15f4ee;
+  margin-top: 1vmax;
+  margin-bottom: 1vmax;
+  padding: 2vmax;
+
 }

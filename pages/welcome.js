@@ -35,7 +35,7 @@ export default function Welcome() {
     <Column start={1} end={12} className="text-center align-self-center">
     <Link href="/about"  >
         <a  >
-        <Text size={10}> About Me</Text>
+        <Text size={[10,2,3,4]}>About Me</Text>
         </a>
     </Link>
     </Column>
@@ -44,7 +44,7 @@ export default function Welcome() {
     <Column start={1} end={12} className="text-center align-self-center">
     <Link href="/projects"  >
         <a  >
-         <Text size={10}> Projects Stats</Text>
+         <Text size={[10,2,3,4]}>Projects</Text>
         </a>
     </Link>
     </Column>
@@ -53,7 +53,7 @@ export default function Welcome() {
     <Column start={1} end={12} className="text-center align-self-center">
     <Link href="/blog"  >
         <a  >
-        <Text size={10}> My Blog</Text>
+        <Text size={[10,2,3,4]}>Blog</Text>
         </a>
     </Link>
     </Column>

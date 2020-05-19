@@ -20,7 +20,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
           <Navigation/>
-           <div className="container"> 
+           <div className="container" style={{marginTop: "10vmax"}}> 
            <div className="row justify-content-center">
             <img
               src="/images/profile.jpg"
@@ -38,13 +38,6 @@ export default function Layout({ children, home }) {
         )}
       </Container>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/blog">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </>
   )
 }

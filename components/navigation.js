@@ -8,9 +8,9 @@ export default function Navigation(){
     <Head>
         <title>Sri Krishna J Portfolio</title>
     </Head>
-    <Navbar>
+    <Navbar fixed={"top"} style={{backgroundColor:"#0C1804"}} className="mb-5" >
       <NavbarBrand className={styles.brandStyle} href="/">Home</NavbarBrand>
-      <NavbarBrand className={styles.brandStyle} href="contact">Contact Me</NavbarBrand>
+      <NavbarBrand className={styles.brandStyle} href="contact">Contact</NavbarBrand>
     </Navbar>
     </>
     )
