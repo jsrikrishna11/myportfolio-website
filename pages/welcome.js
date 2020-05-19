@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles, styled } from '@material-ui/core/styles';
 import Link from 'next/link'
+import {Card, Grid, Column, Row, Text} from 'react-ui'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -29,47 +30,46 @@ export default function Welcome() {
   };
 
   return (
-    <>
-    <div className="indexContainer">
-      <div className="row welcomeRow ">
-      <Link href="/about">
-        <a className="col-4 welcomeIndex p-0 m-0 card indexTag text-success ">
-          <img  src="/images/img1.jpg" style={{height:"100%"}} className="card-img m-0 "/>
-          <div className="card-img-overlay d-flex justify-content-center">
-            <div className="align-self-center">About Me</div>
-          </div>
+    <Grid rowGap={3}>
+    <Row css={{height: "25vmax", backgroundColor: "#540071"}} className="indexTag" >
+    <Column start={1} end={12} className="text-center align-self-center">
+    <Link href="/about"  >
+        <a  >
+        <Text size={10}> About Me</Text>
         </a>
-      </Link>
-      <Link href="/projects" >
-        <a className="col-4 welcomeIndex p-0 m-0 card indexTag text-warning">
-          <img  src="/images/curlybraces.png" style={{height:"100%"}} className="card-img m-0 "/>
-          <div className="card-img-overlay d-flex justify-content-center">
-            <div className="align-self-center">Projects</div>
-          </div>
+    </Link>
+    </Column>
+    </Row>
+    <Row css={{height: "25vmax", backgroundColor: "#540071"}} className="indexTag" >
+    <Column start={1} end={12} className="text-center align-self-center">
+    <Link href="/projects"  >
+        <a  >
+         <Text size={10}> Projects Stats</Text>
         </a>
-      </Link>
-      <Link href="/blog">
-        <a className="col-4 welcomeIndex p-0 m-0 card indexTag text-primary ">
-          <img  src="/images/typewriter.jpg" style={{height:"100%"}} className="imgOpacity card-img m-0  "/>
-          <div className="card-img-overlay d-flex justify-content-center">
-            <div className="align-self-center">Blog</div>
-          </div>
+    </Link>
+    </Column>
+    </Row>
+    <Row css={{height: "25vmax", backgroundColor: "#540071"}} className="indexTag" >
+    <Column start={1} end={12} className="text-center align-self-center">
+    <Link href="/blog"  >
+        <a  >
+        <Text size={10}> My Blog</Text>
         </a>
-      </Link>
-      </div>
-    </div>
-    <div className="row footer justify-content-center">
-      <div className="col-4  footerPartition">
-        Social Media
-      </div>
-      <div className="col-4 footerPartition">
-        Github
-      </div>
-      <div className="col-4 footerPartition">
-        Email API
-      </div>
-    </div>
-    </>
+    </Link>
+    </Column>
+    </Row>
+    <Row css={{height:"25vmax"}}>
+      <Column start={1} end={4} className="text-center  align-self-center">
+        <span className="fa fa-info-circle fa-4x iconColor" style={{color:"#F0F0F2"}}></span>
+      </Column>
+      <Column start={5} end={8} className="text-center align-self-center">
+        <span className="fa fa-github fa-4x " style={{color:"#F0F0F2"}} ></span>
+      </Column>
+      <Column start={9} end={12} className="text-center align-self-center">
+        <span className="fa fa-envelope fa-4x iconColor" style={{color:"#F0F0F2"}}></span>
+      </Column>
+    </Row>
+    </Grid>
   );
 }
 

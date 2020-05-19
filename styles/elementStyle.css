@@ -9,22 +9,25 @@
 }
 
 .welcomeIndex{
-    height: 100%;
+    width: 100%;
+    height: 33%;
+}
+
+.indexTag{
+    font-size: x-large;
 }
 
 .indexTag:hover{
-    border: 5px inset lightblue;
+    border: 5px solid #466F49;
     animation: ease-in;
     opacity: .8;
-    font-style: italic;
 }
-
 .welcomeRow{
-    height: 100%;
+    height: 80%;
 }
 
 .indexContainer{
-    height: 90% ;
+    height: 95% ;
 
 }
 /* .welcomIndex:hover{
@@ -34,12 +37,12 @@
 
 
 .footer{
-    height: 10%;
-    background-color: black;
+    height: 5%;
+    
 }
 
 .footerPartition{
-    border: 2px solid red;
+    align-content: center;
 }
 
 
@@ -53,7 +56,7 @@
 
 .blogContent{
     font-size: 25px;
-    background-color: grey;
+    background-color: #5E6D8C;
 }
 
 

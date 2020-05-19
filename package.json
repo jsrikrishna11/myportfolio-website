@@ -17,6 +17,7 @@
     "popper": "^1.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-ui": "^1.0.0-beta.26",
     "reactstrap": "^8.4.1",
     "remark": "^12.0.0",
     "remark-html": "^11.0.1"
